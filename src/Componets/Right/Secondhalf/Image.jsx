@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import '/Users/Amarachi/portifolio/src/Index.css';
+import '/src/Index.css';
+import'/src/App.css'
+import Dropdown from './Dropdown';
 
-const images = [ '/src/Componets/Right/Secondhalf/img_1.png', '/src/Componets/Right/Secondhalf/img.png'];
+const images = [ '/src/Componets/Right/Secondhalf/img.png', '/src/Componets/Right/Secondhalf/img.png'];
 
 function Image() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -9,15 +11,15 @@ function Image() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 100000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="image-slider">
+    <div className="image_slider">
       <img
-        className="slider-image"
+        className="slider_image"
         src={`${images[currentImageIndex]}`}
         alt={`Image ${currentImageIndex + 1}`}
       />

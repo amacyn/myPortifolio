@@ -1,0 +1,114 @@
+
+.section{
+  padding: 2.5rem 0 0 4rem ;
+  overflow: scroll;
+}
+
+.text{
+  margin-bottom: 0;
+}
+
+.menu-icon::before {
+  content: "  "; 
+}
+
+.close-icon::before {
+  content: " "; 
+}
+
+.breadcrum{
+  text-align: center;
+  margin: 13rem 0 8rem 0;
+}
+
+.p{
+  font-size: large;
+  margin: 3rem 0 ;
+}
+
+.abt{
+  font-size: large;
+  margin: 3rem 0 ;
+}
+
+.about{
+  font-size: xx-large;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firsthalf{
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.firsthalf_content{
+  background-color: #f0eeee;
+  padding: 3rem 5rem;
+  margin: 15px;
+  text-align: center;
+}
+
+.br{
+  display: flex;
+}
+
+.h5{ 
+  margin-bottom: 2rem;
+}
+
+.margin{
+  margin: 18rem 0 10rem 0;
+}
+
+.footer1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15rem 0 5rem 0;
+}
+
+.progress_row{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px 0 50px;
+  gap: 1rem 5rem;
+}
+
+.progress{
+  height: .6rem;
+  width: 25rem;
+  background-color: var(  --clr-grey-8);
+  border-radius: 8px;
+  box-shadow: var(--dark-shadow);
+}
+
+.progress_percent{
+  height: .6rem;
+  width: 20rem;
+  background-color: var(--clr-primary-7);
+  border-radius: 8px;
+}
+
+.footer1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15rem 0 5rem 0;
+}
