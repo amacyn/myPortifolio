@@ -2,7 +2,7 @@
 @media screen and (max-width: 900px) {
 
  body {
-   /* background-image: url(../src/Componets/Right/Images/img1.png); */
+   background-image: url(../src/Componets/Right/Images/img1.png);
    background-size: cover;
   }
  

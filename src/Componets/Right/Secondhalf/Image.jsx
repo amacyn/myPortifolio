@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import '/src/Index.css';
-import'/src/App.css'
-import Dropdown from './Dropdown';
+import '../../../Index.css';
+import '../../../App.css';
 
-const images = [ '/src/Componets/Right/Secondhalf/img.png', '/src/Componets/Right/Secondhalf/img.png'];
+const images = [ '../Images/img1.png', '../Images/img.png'];
 
 function Image() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

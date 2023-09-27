@@ -1,6 +1,6 @@
 import React from 'react'
 import Dropdown from '../../Componets/Right/Secondhalf/Dropdown'
-import '/Users/Amarachi/portifolio/src/Pages/About/About.css';
+import './About.css';
 import Header from '../../Componets/Left/Header/Header';
 import Breadcrum from './Breadcrum';
 import FirstSec from './FirstSec';

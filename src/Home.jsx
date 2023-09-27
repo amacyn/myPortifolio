@@ -5,8 +5,8 @@ import Button from './Componets/Left/Body/Button/Button';
 import Footer from './Componets/Left/Footer/Footer';
 import Images from './Componets/Right/Secondhalf/Image';
 import './Index.css';
-import '/src/App.css';
-import '/src/media.css'
+import './App.css';
+import './media.css'
 
 export default function Home() {
   
@@ -18,7 +18,7 @@ export default function Home() {
         <Button/>
         <Footer/>
       </div>
-     <Images/>
+     {/* <Images/> */}
    </div>
   )
 }

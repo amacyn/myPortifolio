@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/Amarachi/portifolio/src/Index.css'
+import '../.././index.css'
 
 function FirstSec() {
   return (
