@@ -5,8 +5,6 @@ import Contacts from './Pages/Contacts/Contacts';
 import Experiences from './Pages/Experiences/Experiences';
 import Services from './Pages/Services/Services';
 import Works from './Pages/Works/Works';
-import './Index.css';
-import './App.css'
 import { Route, Routes } from 'react-router-dom';
 
 const App = () => {

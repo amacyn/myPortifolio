@@ -1,8 +1,6 @@
 
 import React, { useState } from 'react';
-import '../../../index.css';
 import { Link } from 'react-router-dom';
-import '../../../App.css'
 
 const Dropdown = ({ title }) => {
   const [isOpen, setIsOpen] = useState(false);

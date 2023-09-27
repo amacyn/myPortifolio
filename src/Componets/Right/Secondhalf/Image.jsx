@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import '../../../Index.css';
-import '../../../App.css';
 
 const images = [ '../Images/img1.png', '../Images/img.png'];
 

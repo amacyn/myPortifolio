@@ -4,8 +4,6 @@ import Text from './Componets/Left/Body/Text';
 import Button from './Componets/Left/Body/Button/Button';
 import Footer from './Componets/Left/Footer/Footer';
 import Images from './Componets/Right/Secondhalf/Image';
-import './Index.css';
-import './App.css';
 import './media.css'
 
 export default function Home() {
