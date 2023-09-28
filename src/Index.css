@@ -8,8 +8,8 @@
   height: auto;
   width: auto;
   text-transform: uppercase;
-  background: var( --clr-primary-7);
-  color: var(--clr-grey-7);
+  background: var(--clr-primary-1);
+  color: var(--clr-grey-9);
   padding: 1rem  1.5rem;
   letter-spacing: var(--spacing);
   display: inline-block;
@@ -19,18 +19,26 @@
   cursor: pointer;
   box-shadow:var(--light-shadow);
   margin: 1px;
+  font-weight: bold;
 }
 
 .btn:hover {
-  color: var(--clr-grey-7);
-  background: var(--clr-primary-6);
+  color: var(--clr-grey-9);
+  background: var(--clr-primary-2);
   box-shadow: var(--dark-shadow);
 }
 
 .btn_2{
-  background: var(--clr-grey-9);
-  color: var(--clr-black);
+  background: var(--clr-primary-5);
+  color: var(--clr-grey-9);
 }
+
+.btn_2:hover {
+  color: var(--clr-grey-9);
+  background: var(--clr-primary-4);
+  box-shadow: var(--dark-shadow);
+}
+
 
 .span{
   color: var(--clr-primary-7);

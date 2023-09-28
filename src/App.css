@@ -5,10 +5,10 @@
 :root {
   scroll-behavior: smooth;
   --clr-primary-1: hsl(0, 0%, 0%);
-  --clr-primary-2: hsl(204, 32%, 12%);
+  --clr-primary-2: hsl(0, 0%, 29%);
   --clr-primary-3: hsl(205, 25%, 32%);
-  --clr-primary-4: hsl(205, 54%, 61%);
-  --clr-primary-5: #49a6e9;
+  --clr-primary-4: hsl(210, 59%, 57%);
+  --clr-primary-5: linear-gradient(to bottom right, hsl(210, 100%, 38%), hsl(212, 33%, 89%));
   --clr-primary-6: hsl(331, 65%, 90%);
   --clr-primary-7: hsl(332, 82%, 85%);
   --clr-primary-8: hsla(310, 100%, 75%, 0.946);
