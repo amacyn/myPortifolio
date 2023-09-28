@@ -125,6 +125,7 @@ img {
   justify-content: center;
   align-items: center;
   object-fit: contain;
+  background-color: var(--clr-primary-7);
 }
 
 .breadcrum{

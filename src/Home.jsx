@@ -4,7 +4,6 @@ import Text from './Componets/Left/Body/Text';
 import Button from './Componets/Left/Body/Button/Button';
 import Footer from './Componets/Left/Footer/Footer';
 import Images from './Componets/Right/Secondhalf/Image';
-import './media.css'
 
 export default function Home() {
   
@@ -16,7 +15,7 @@ export default function Home() {
         <Button/>
         <Footer/>
       </div>
-     {/* <Images/> */}
+     <Images/>
    </div>
   )
 }

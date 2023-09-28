@@ -1,11 +1,6 @@
 
 @media screen and (max-width: 900px) {
 
- body {
-   background-image: url(../src/Componets/Right/Images/img1.png);
-   background-size: cover;
-  }
- 
  .grid{
    display: inline;
    overflow: visible;
@@ -17,7 +12,7 @@
 
  .home_section_media{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 10rem;
     height: 100%;
     width: 55rem;
@@ -41,8 +36,22 @@
  .span{
    font-size: 1.65rem;
  }
+
+ .image_slider{
+   width: 55rem; 
+   height: 50rem;
+   background-color: var(--clr-primary-7);
+ }
+
+ .slider_image{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   object-fit: contain;
+   background-color: var(--clr-primary-7);
+ }
  
-  .dropdown-content {
+  /* .dropdown-content {
     border-top: 1px solid #ccc;
     padding: 2rem;
     background: var(--clr-primary-7);
@@ -56,14 +65,7 @@
   
   .dropdown-content li:hover {
     color:  var(--clr-primary-7);
-  }
+  } */
 
-  .image_slider{
-    display: none;
-  } 
-
-  .slider_image{
-    display: none;
-  }
   
 }
